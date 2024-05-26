@@ -7,9 +7,7 @@ import BaseRoute from './apps/BaseRoute';
 function App() {
   return (
     <BrowserRouter>
-      <LayoutInit>
-        <BaseRoute />
-      </LayoutInit>
+      <BaseRoute />
     </BrowserRouter>
   );
 }
