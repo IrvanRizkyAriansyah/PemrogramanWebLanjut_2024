@@ -4,11 +4,13 @@ import { ChapterOne } from '../modules/chapter-1';
 import { ChapterTwo } from '../modules/chapter-2';
 import Auth from '../modules/chapter-2/widgets/authentifications';
 import LayoutInit from '../components/LayoutInit';
+import { ChapterThree } from '../modules/chapter-3';
 
 export default function BaseRoute() {
   const arr = [
     { path: 'chapter-1', element: <ChapterOne /> },
     { path: 'chapter-2', element: <ChapterTwo /> },
+    { path: 'chapter-3', element: <ChapterThree /> },
   ];
   return (
     <React.Suspense>
